@@ -3,7 +3,7 @@
   #{$name} {
     background: $color;
 
-    @if (lightness($color) < 60) {
+    @if (lightness($color) > 60) {
       color: $light-color;
     }
   }
